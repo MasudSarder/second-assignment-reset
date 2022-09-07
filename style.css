@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0;
+}
+
+/*------------ header style ----------- */
+section {
+    width: 1321px;
+    height: 646px;
+}
+
+.header-img img {
+    width: 581px;
+    height: 613px;
+    margin-left: 100px;
+}
+
+.headers {
+    border-radius: 28px;
+    background-color: blue;
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-detail {
+    color: white;
+    margin-left: 50px;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header-para {
+    margin-bottom: 65px;
+}
+
+.header-button {
+    color: white;
+    text-decoration: none;
+    padding: 16px 20px;
+    background-color: rgb(240, 45, 10);
+    margin-bottom: 30px;
+}
+
+/*-------------------------- blog style --------------------- */
+.blog-card {
+    width: 312px;
+    height: 312px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.875);
+    margin-left: 15px;
+}
+
+.blog-button {
+    background: white;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+}
+
+.blogs {
+    display: flex;
+    gap: 24px;
+}
+
+.blog-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.blogt-button {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: -4px;
+}
+
+.player-para {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+}
+
+.icons {
+    display: flex;
+}
+
+.iconsg {
+    margin-left: 20px;
+}
+
+.iconst {
+    margin-left: 10px;
+}
+
+/*-------------------- blogs style end ----------------- */
+
+/*-------------------- footer style start -------------- */
+.footer-buttom {
+    margin-top: 600px;
+    width: 1345px;
+    height: 444px;
+    background: #161616;
+}
+
+.footer-onet {
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-last{
+    display: flex;
+    gap: 10px;
+    color:  #B9B9B9;
+    justify-content: center;
+}
+
+/*-------------------- footer style end -------------- */
